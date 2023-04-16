@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/entity-patch-schema.json",
+  "tempHash": "00AAF33A198D252C",
+  "tbluHash": "00F009965B6AA777",
+  "patch": [
+    {
+      "SubEntityOperation": [
+        "2ecfecca2e3ff2b9",
+        {
+          "SetPropertyValue": {
+            "property_name": "m_nValue",
+            "value": 70
+          }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}

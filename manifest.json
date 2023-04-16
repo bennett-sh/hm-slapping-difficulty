@@ -1,9 +1,60 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Incredible Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.15.1"
+	"id": "BSh.SlappingDifficulty",
+	"name": "Slapping Difficulty",
+	"description": "Allows you to either kill or protect your fingers when doing the slapping contest.",
+	"authors": ["BSh"],
+	"frameworkVersion": "2.15.1",
+	"options": [
+		{
+			"name": "Impossible",
+			"type": "select",
+			"group": "Difficulty",
+			"tooltip": "3.5x as many key presses required",
+			"contentFolders": ["impossible"]
+		},
+		{
+			"name": "Very Hard",
+			"group": "Difficulty",
+			"contentFolders": ["very-hard"],
+			"type": "select",
+			"tooltip": "3x as many key presses required"
+		},
+		{
+			"name": "Hard",
+			"group": "Difficulty",
+			"contentFolders": ["hard"],
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "2.5x as many key presses required"
+		},
+		{
+			"name": "Medium",
+			"group": "Difficulty",
+			"contentFolders": ["medium"],
+			"type": "select",
+			"tooltip": "Requires 2x as many key presses"
+		},
+		{
+			"name": "Normal",
+			"group": "Difficulty",
+			"type": "select",
+			"tooltip": "Like without the mod"
+		},
+		{
+			"name": "Easy",
+			"group": "Difficulty",
+			"contentFolders": ["easy"],
+			"type": "select",
+			"tooltip": "0.5x as many key presses required"
+		},
+		{
+			"name": "One Hit",
+			"group": "Difficulty",
+			"contentFolders": ["onehit"],
+			"type": "select",
+			"tooltip": "One hit."
+		}
+	]
 }
