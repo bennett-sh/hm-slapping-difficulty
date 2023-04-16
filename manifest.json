@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"id": "BSh.SlappingDifficulty",
 	"name": "Slapping Difficulty",
 	"description": "Allows you to either kill or protect your fingers when doing the slapping contest.",
@@ -56,5 +56,6 @@
 			"type": "select",
 			"tooltip": "One hit."
 		}
-	]
+	],
+	"updateCheck": "https://github.com/bennett-sh/hm-harder-slapping/releases/latest/download/updates.json"
 }
